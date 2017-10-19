@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tosca:Definitions xmlns:tosca="http://docs.oasis-open.org/tosca/ns/2011/12" xmlns:winery="http://www.opentosca.org/winery/extensions/tosca/2013/02/12" xmlns:selfservice="http://www.eclipse.org/winery/model/selfservice" targetNamespace="http://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html" id="winery-defs-for_toscaprimervhtml-DBMS">
+    <tosca:NodeType name="DBMS" abstract="no" final="no" targetNamespace="http://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html" winery:bordercolor="#1feaa4">
+        <tosca:documentation>A basic Database Management System</tosca:documentation>
+        <tosca:DerivedFrom xmlns:toscaprimervhtml="http://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html" typeRef="toscaprimervhtml:RootNodeType"/>
+    </tosca:NodeType>
+</tosca:Definitions>

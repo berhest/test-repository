@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Definitions xmlns="http://docs.oasis-open.org/tosca/ns/2011/12" xmlns:winery="http://www.opentosca.org/winery/extensions/tosca/2013/02/12" xmlns:selfservice="http://www.eclipse.org/winery/model/selfservice" xmlns:testwineryopentoscaorg="http://test.winery.opentosca.org" targetNamespace="http://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html" id="winery-defs-for_toscaprimervhtml-SugarCRMApplication">
+    <NodeType name="SugarCRMApplication" abstract="no" final="no" targetNamespace="http://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html" winery:bordercolor="#bd0348">
+        <documentation>SugarCRM Application</documentation>
+        <DerivedFrom xmlns:toscaprimervhtml="http://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html" typeRef="toscaprimervhtml:ApacheWebApplication"/>
+        <Interfaces>
+            <Interface name="http://www.example.com/lifecycle3">
+                <Operation name="install"/>
+                <Operation name="configure"/>
+                <Operation name="start"/>
+                <Operation name="uninstall"/>
+            </Interface>
+        </Interfaces>
+    </NodeType>
+</Definitions>

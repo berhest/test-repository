@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Definitions xmlns="http://docs.oasis-open.org/tosca/ns/2011/12" xmlns:winery="http://www.opentosca.org/winery/extensions/tosca/2013/02/12" xmlns:selfservice="http://www.eclipse.org/winery/model/selfservice" xmlns:testwineryopentoscaorg="http://test.winery.opentosca.org" targetNamespace="https://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html" id="winery-defs-for_toscaprimervhtml-PackageArtifact">
+    <ArtifactType name="PackageArtifact" abstract="no" final="no" targetNamespace="https://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html">
+        <documentation>Package Artifact</documentation>
+        <winery:PropertiesDefinition elementname="properties" namespace="https://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html/propertiesdefinition/winery">
+            <winery:properties>
+                <winery:key>PackageArtifactProperties</winery:key>
+                <winery:type>xsd:string</winery:type>
+            </winery:properties>
+        </winery:PropertiesDefinition>
+        <DerivedFrom xmlns:toscaprimervhtml="http://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html" typeRef="toscaprimervhtml:RootArtifactType"/>
+    </ArtifactType>
+</Definitions>

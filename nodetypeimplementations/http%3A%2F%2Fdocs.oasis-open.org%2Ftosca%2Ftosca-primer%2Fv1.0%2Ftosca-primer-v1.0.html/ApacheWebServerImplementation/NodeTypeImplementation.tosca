@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tosca:Definitions xmlns:tosca="http://docs.oasis-open.org/tosca/ns/2011/12" xmlns:winery="http://www.opentosca.org/winery/extensions/tosca/2013/02/12" xmlns:selfservice="http://www.eclipse.org/winery/model/selfservice" targetNamespace="http://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html" id="winery-defs-for_toscaprimervhtml-ApacheWebServerImplementation">
+    <tosca:NodeTypeImplementation xmlns:toscaprimervhtml="http://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html" targetNamespace="http://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html" name="ApacheWebServerImplementation" abstract="no" final="no" nodeType="toscaprimervhtml:ApacheWebServer">
+        <tosca:ImplementationArtifacts>
+            <tosca:ImplementationArtifact name="11" interfaceName="http://www.example.com/interfaces/lifecycle" operationName="install" artifactType="toscaprimervhtml:ScriptArtifact" artifactRef="toscaprimervhtml:ApacheWebServerImplementationArtifact"/>
+            <tosca:ImplementationArtifact name="314" interfaceName="http://www.example.com/interfaces/lifecycle" operationName="configure" artifactType="toscaprimervhtml:ScriptArtifact" artifactRef="toscaprimervhtml:ApacheWebServerImplementationArtifact"/>
+            <tosca:ImplementationArtifact name="13" interfaceName="http://www.example.com/interfaces/lifecycle" operationName="start" artifactType="toscaprimervhtml:ScriptArtifact" artifactRef="toscaprimervhtml:ApacheWebServerImplementationArtifact"/>
+            <tosca:ImplementationArtifact name="17" interfaceName="http://www.example.com/interfaces/lifecycle" operationName="stop" artifactType="toscaprimervhtml:ScriptArtifact" artifactRef="toscaprimervhtml:ApacheWebServerImplementationArtifact"/>
+            <tosca:ImplementationArtifact name="19" interfaceName="http://www.example.com/interfaces/lifecycle" operationName="uninstall" artifactType="toscaprimervhtml:ScriptArtifact" artifactRef="toscaprimervhtml:ApacheWebServerImplementationArtifact"/>
+        </tosca:ImplementationArtifacts>
+    </tosca:NodeTypeImplementation>
+</tosca:Definitions>

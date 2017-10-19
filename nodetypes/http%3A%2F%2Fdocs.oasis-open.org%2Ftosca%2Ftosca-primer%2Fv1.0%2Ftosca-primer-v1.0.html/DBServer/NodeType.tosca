@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Definitions xmlns="http://docs.oasis-open.org/tosca/ns/2011/12" xmlns:winery="http://www.opentosca.org/winery/extensions/tosca/2013/02/12" xmlns:selfservice="http://www.eclipse.org/winery/model/selfservice" xmlns:testwineryopentoscaorg="http://test.winery.opentosca.org" targetNamespace="http://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html" id="winery-defs-for_toscaprimervhtml-DBServer">
+    <NodeType name="DBServer" targetNamespace="http://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html" winery:bordercolor="#924d61">
+        <Interfaces>
+            <Interface name="MyDBServerInterface">
+                <Operation name="DeployDBServer"/>
+                <Operation name="AcquireNetworkAddress"/>
+            </Interface>
+        </Interfaces>
+    </NodeType>
+</Definitions>

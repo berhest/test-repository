@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tosca:Definitions xmlns:tosca="http://docs.oasis-open.org/tosca/ns/2011/12" xmlns:winery="http://www.opentosca.org/winery/extensions/tosca/2013/02/12" xmlns:selfservice="http://www.eclipse.org/winery/model/selfservice" targetNamespace="http://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html" id="winery-defs-for_toscaprimervhtml-314">
+    <tosca:ArtifactTemplate xmlns:toscaprimervhtml="http://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html" name="314" type="toscaprimervhtml:ScriptArtifact" id="314">
+        <tosca:Properties>
+            <properties:properties xmlns:properties="http://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html/properties" xmlns="http://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html/properties">
+                <ScriptLanguage>sh</ScriptLanguage>
+                <PrimaryScript>scripts/ApacheWebServer/configure.sh</PrimaryScript>
+            </properties:properties>
+        </tosca:Properties>
+    </tosca:ArtifactTemplate>
+</tosca:Definitions>

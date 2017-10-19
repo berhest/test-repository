@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tosca:Definitions xmlns:tosca="http://docs.oasis-open.org/tosca/ns/2011/12" xmlns:winery="http://www.opentosca.org/winery/extensions/tosca/2013/02/12" xmlns:selfservice="http://www.eclipse.org/winery/model/selfservice" targetNamespace="http://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html" id="winery-defs-for_toscaprimervhtml-WebServer">
+    <tosca:NodeType name="WebServer" targetNamespace="http://docs.oasis-open.org/tosca/tosca-primer/v1.0/tosca-primer-v1.0.html" winery:bordercolor="#a23797">
+        <tosca:documentation>Web Server</tosca:documentation>
+        <tosca:RequirementDefinitions>
+            <tosca:RequirementDefinition xmlns:requirementtypes="http://plain.winery.opentosca.org/requirementtypes" name="SoftwareContainerRequirement" requirementType="requirementtypes:RequirementTypeWithOneKvProperty" lowerBound="1" upperBound="1"/>
+        </tosca:RequirementDefinitions>
+        <tosca:CapabilityDefinitions>
+            <tosca:CapabilityDefinition xmlns:capabilitytypes="http://plain.winery.opentosca.org/capabilitytypes" name="WebApplicationContainerCapability" capabilityType="capabilitytypes:CapabilityTypeWithOneKvProperty" lowerBound="0" upperBound="unbounded"/>
+        </tosca:CapabilityDefinitions>
+    </tosca:NodeType>
+</tosca:Definitions>
